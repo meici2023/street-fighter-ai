@@ -31,7 +31,7 @@ conda activate StreetFighterAI
 
 # 安装 Python 代码库
 cd [项目上级文件夹]/street-fighter-ai/main
-pip install -r requirements.txt
+pip install -r requirements.txt #在大陆，后面最好加上-i http://pypi.doubanio.com/simple/ --trusted-host pypi.doubanio.com，用以替换为豆瓣等镜像源
 
 # 运行程序脚本定位 gym-retro 游戏文件夹位置
 cd ..
